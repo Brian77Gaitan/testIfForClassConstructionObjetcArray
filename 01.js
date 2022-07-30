@@ -14,8 +14,20 @@ function mayorMenor(numeros) {
   // y 2 es el número más chico (menor) dentro del arreglo [9, 17, 6, 2, 4]
 
   // Tu código aca:
-  var a = 0;
+  var max = numeros[0];
+  var min = numeros[0];
+  var resulta = 0;
+  
+  for (var i = 0; i < numeros.length; i++) {
+    if (numeros[i] > max) {
+      max = numeros[i];
+    }  
+    if (numeros[i] < min) {
+      min = numeros[i];
+    }
+  } return resulta = [min, max];
 }
+
 
 // No modifiques nada debajo de esta linea //
 
