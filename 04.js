@@ -20,7 +20,7 @@ function sumArray(array, n) {
 
   // Tu código aca:
 
-};
+}
 
 // No modifiques nada debajo de esta linea //
 
