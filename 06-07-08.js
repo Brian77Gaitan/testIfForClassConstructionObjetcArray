@@ -44,8 +44,8 @@ function crearClaseViajero() {
       // viajero.getCompañeros() debería devolver ['John', 'Peter']
 
       // Tu código aca:
-      const transformarObjetoAmigoANombre = ((compañero) => compañero.nombre);
-      const indexed = this.compañeros.map(transformarObjetoAmigoANombre);
+      const transformarObjetoCompañeroANombre = ((compañero) => compañero.nombre);
+      const indexed = this.compañeros.map(transformarObjetoCompañeroANombre);
       return indexed
     }
 
